@@ -1,5 +1,4 @@
 import { View, Text, StyleSheet, Pressable } from "react-native";
-import React from "react";
 
 function AboutScreen({ navigation }) {
   const onPressHandler = () => {

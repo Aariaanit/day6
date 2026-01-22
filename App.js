@@ -16,14 +16,9 @@ function App() {
           header: () => "Home Screen",
         }}
       >
-        <Stack.Screen
-          name="Home Screen"
-          component={HomeScreen}
-          options={{
-            header: () => "Home Screen",
-          }}
-        />
+        <Stack.Screen name="Home Screen" component={HomeScreen} />
         <Stack.Screen name="About Screen" component={AboutScreen} />
+
       </Stack.Navigator>
     </NavigationContainer>
   );
