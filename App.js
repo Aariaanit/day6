@@ -18,10 +18,8 @@ function App() {
       >
         <Stack.Screen name="Home Screen" component={HomeScreen} />
         <Stack.Screen name="About Screen" component={AboutScreen} />
-
       </Stack.Navigator>
     </NavigationContainer>
   );
 }
-
 export default App;

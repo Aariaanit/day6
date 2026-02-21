@@ -8,6 +8,7 @@ function HomeScreen({navigation}) {
   }
       return (
         <View style={styles.body}>
+          
           <Text style={styles.text}>
             Home Page
           </Text>
